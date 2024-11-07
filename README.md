@@ -11,3 +11,18 @@ caption:leo trailer
 image url:https://www.livemint.com/lm-img/img/2023/10/06/600x338/F7uxdDfaQAAFgLy_1696582469444_1696582481195.jpg
 youtube link:https://www.youtube.com/watch?v=Po3jStA673E
 embed link:https://www.youtube.com/embed/Po3jStA673E
+ JSON SERVER DEPLOYMENT using node js
+ -----------------------
+ create an index.js inside server folder 
+ update script key of package.json file  with {start: node index.js} and remove test from it
+ create gitignore file to add node_modules
+ define steps to run db.json using json_server in index.js
+ import json-server
+- create a server for media player app in order to run server application
+- create middleware to convert json data to js
+- create a port for executing our application
+- setup path for db.json file so that client can make the request
+ -use middleware,route inside the server 
+- run the serevr using the given port 
+-To execute our app we have to use node inde.js in command prompt in terminal so that we can see the output in licalhost 300
+
